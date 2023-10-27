@@ -1,8 +1,10 @@
 
 body{
   background-image: url(WhatsApp\ Image\ 2023-09-06\ at\ 14.21.14.jpeg);
-  background-attachment: fixed !important;
-  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
 }
 
@@ -422,7 +424,6 @@ body{
     body{
       overflow-x: hidden;
       background-size: cover;
-      background-position: center;
     }
  
   
