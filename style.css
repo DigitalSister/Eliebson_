@@ -1,5 +1,6 @@
 
 body{
+  background: url(background.JPG) fixed center;
   background-image: url(background.JPG);
   -webkit-background-size: cover;
   -moz-background-size: cover;
