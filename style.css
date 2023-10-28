@@ -1,6 +1,7 @@
 
 body{
-  background-image: url(background.JPG);
+  background-image: url(background.JPG) auto 749px;
+  height: 749px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
