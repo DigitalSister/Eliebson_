@@ -378,23 +378,6 @@ body{
   text-align: center;
 }
 
-@media (min-width: 150px) and (max-width: 450px){
-
-body{
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
-  background-attachment: fixed !important;
-}
-
-
-
-
-}
-
-
-
 
 @media (min-width: 420px) and (max-width: 500px){
 
