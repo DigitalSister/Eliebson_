@@ -1,6 +1,6 @@
 
 body{
-  background-image: url(WhatsApp\ Image\ 2023-09-06\ at\ 14.21.14.jpeg);
+  background-image: url(background.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -376,9 +376,6 @@ body{
 
 @media (min-width: 420px) and (max-width: 500px){
 
-body{
-  overflow: hidden;
-}
 
 .btn{
   margin-left: 100px;
@@ -419,11 +416,6 @@ body{
 
 
 @media (min-width: 650px) and (max-width: 1749px){
-
-    body{
-      overflow-x: hidden;
-      background-size: cover;
-    }
  
   
     .btn{
@@ -560,11 +552,6 @@ body{
 
 
 @media (min-width: 1750px) and (max-width: 2000px){
-
-    body{
-      overflow-x: hidden;
-      background-size: cover;
-    }
  
   
     .btn{
@@ -699,6 +686,8 @@ body{
 
   @media (min-width: 150px) and (max-width: 640px){
     body{
-      background-size: auto;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
   }
