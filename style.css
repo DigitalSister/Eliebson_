@@ -1,12 +1,12 @@
 
 body{
+  background: fixed;
   background-image: url(background.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   overflow-x: hidden
-
 }
 
 /*---------------------------------------------Botão------------------------------------------------*/
