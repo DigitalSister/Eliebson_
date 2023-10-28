@@ -1,10 +1,10 @@
 
 body{
   background-image: url(background.JPG);
-  background-size: cover;
-  -moz-background-size: cover;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -690,5 +690,9 @@ body{
   @media (min-width: 150px) and (max-width: 640px){
     body{
       background-attachment: fixed;
+      background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
     }
   }
