@@ -1,8 +1,10 @@
 
 body{
-  background-image: url(background.JPG) auto 749px;
-  height: 749px;
+  background-image: url(background.JPG);
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
