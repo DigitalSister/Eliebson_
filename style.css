@@ -686,15 +686,4 @@ body{
     }
 
   /*---------------------------------------------------------------------------------------------------------------------------*/
-
-  }
-
-  @media (min-width: 150px) and (max-width: 640px){
-    body{
-      background-attachment: fixed;
-      background-size: cover;
-      -moz-background-size: cover;
-      -webkit-background-size: cover;
-      -o-background-size: cover;
-    }
   }
