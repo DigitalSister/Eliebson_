@@ -4,8 +4,9 @@ body{
   background-image: url(background.JPG);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
+
 
   width: 100%;
   overflow-x: hidden;
@@ -381,13 +382,8 @@ body{
 @media (min-width: 405px) and (max-width: 500px){
 
   body{
-    background-color: #000000;
-    background-image: url(background.JPG);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    }
+    background-attachment: fixed !important;
+  }
 
 .btn{
   margin-left: 70px;
@@ -424,15 +420,6 @@ body{
 }
 
 @media (min-width: 501px) and (max-width: 585px){
-
-  body{
-    background-color: #000000;
-    background-image: url(background.JPG);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    }
 
 
   .btn{
@@ -472,15 +459,6 @@ body{
   }
 
   @media (min-width: 586px) and (max-width: 649px){
-
-    body{
-      background-color: #000000;
-      background-image: url(background.JPG);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      }
 
 
     .btn{
@@ -522,15 +500,6 @@ body{
 
 
 @media (min-width: 650px) and (max-width: 1749px){
-
-  body{
-    background-color: #000000;
-    background-image: url(background.JPG);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    }
  
   
     .btn{
@@ -667,15 +636,6 @@ body{
 
 
 @media (min-width: 1750px) and (max-width: 2000px){
-
-  body{
-    background-color: #000000;
-    background-image: url(background.JPG);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    }
  
   
     .btn{
