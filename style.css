@@ -1,11 +1,14 @@
 
 body{
+  background-color: #000000;
   background-image: url(background.JPG);
-  background-attachment: fixed !important;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
   width: 100%;
   overflow-x: hidden;
-  margin-left: 10px;
 }
 
 /*---------------------------------------------Botão------------------------------------------------*/
@@ -377,12 +380,13 @@ body{
 
 @media (min-width: 405px) and (max-width: 500px){
 
+  body{
+    background-attachment: fixed !important;
+  }
 
 .btn{
   margin-left: 70px;
 }
-
-
 
 .box{
   width: 600px;
@@ -412,9 +416,85 @@ body{
   width: 600px;
 }
 
-
-
 }
+
+@media (min-width: 501px) and (max-width: 585px){
+
+
+  .btn{
+    margin-left: 70px;
+  }
+  
+  
+  
+  .box{
+    width: 600px;
+  }
+  
+  .box2{
+    width: 600px;
+  }
+  
+  .box3{
+    width: 600px;
+  }
+  
+  .box4{
+    width: 600px;
+  }
+  
+  .box5{
+    width: 600px;
+  }
+  
+  .precos{
+    width: 590px;
+  }
+  
+  .planoss{
+    width: 600px;
+  }
+  
+  }
+
+  @media (min-width: 586px) and (max-width: 649px){
+
+
+    .btn{
+      margin-left: 70px;
+    }
+    
+    
+    
+    .box{
+      width: 680px;
+    }
+    
+    .box2{
+      width: 680px;
+    }
+    
+    .box3{
+      width: 680px;
+    }
+    
+    .box4{
+      width: 680px;
+    }
+    
+    .box5{
+      width: 680px;
+    }
+    
+    .precos{
+      width: 660px;
+    }
+    
+    .planoss{
+      width: 680px;
+    }
+    
+    }
 
 
 
