@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  width: 100%;
+  width: 50%;
   overflow-x: hidden;
 }
 
@@ -377,6 +377,44 @@ body{
   box-sizing: border-box;
   text-align: center;
 }
+
+
+@media (min-width: 150px) and (max-width: 419px){
+
+  .box{
+    width: 750px;
+  }
+  
+  .box2{
+    width: 750px;
+  }
+  
+  .box3{
+    width: 750px;
+  }
+  
+  .box4{
+    width: 750px;
+  }
+  
+  .box5{
+    width: 750px;
+  }
+  
+  .precos{
+    width: 750px;
+  }
+  
+  .planoss{
+    width: 750px;
+  }
+  
+
+}
+
+
+
+
 
 
 @media (min-width: 420px) and (max-width: 500px){
