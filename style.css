@@ -391,6 +391,10 @@ body{
   margin-left: 70px;
 }
 
+svg{
+  margin-left: 70px;
+}
+
 .box{
   width: 600px;
 }
@@ -428,7 +432,9 @@ body{
     margin-left: 70px;
   }
   
-  
+  svg{
+    margin-left: 70px;
+  }
   
   .box{
     width: 600px;
@@ -467,7 +473,9 @@ body{
       margin-left: 70px;
     }
     
-    
+    svg{
+      margin-left: 70px;
+    }
     
     .box{
       width: 680px;
@@ -507,8 +515,7 @@ body{
     .btn{
       margin-left: 550px;
     }
-  
-  
+
   
     .box{
       width: 1600px;
